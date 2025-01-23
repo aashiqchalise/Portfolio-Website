@@ -14,3 +14,5 @@ $(document).ready(function () {
     });
 
 });
+
+document.getElementById("footer-year").innerText = new Date().getFullYear();
